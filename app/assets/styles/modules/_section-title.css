@@ -13,7 +13,13 @@
 		
 	}
 	
-	&__icon {		
+	&--blue {
+		color: $mainBlue;
+	}
+	
+	&__icon {	
+		position: relative;
+		top: 8px;
 		display: block;
 		margin-left: auto;
 		margin-left: auto;
@@ -24,6 +30,6 @@
 			margin-left: 0;
 			display: inline-block;
 			margin-bottom: 0;
-		}
+		}		
 	}
 }
